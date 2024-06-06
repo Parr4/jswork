@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./statics/style.css" />
+  </head>
+
+  <body>
+    <section class="ex1 gray">
+      <h2>Apreta la imagen!</h2>
+      <img src="./statics/imgborder.jpg" id="img-border" alt="" />
+    </section>
+
+    <section class="stickersection">
+        <h2>Escoge hasta 10 stickers!</h2>
+      <div class="stickselector">
+        <div class="item">
+          <img src="./statics/sticker1.jpg" class="sticker" />
+          <input id="input1" type="text" />
+        </div>
+        <div class="item">
+          <img src="./statics/sticker2.jpg" class="sticker" />
+          <input id="input2" type="number" />
+        </div>
+        <div class="item">
+          <img src="./statics/sticker3.jpg" class="sticker" />
+          <input id="input3" type="number" />
+        </div>
+      </div>
+      <div class="stickerText">
+        <h3 id="stickerMsg"></h3>
+        <h3 id="cantidad"></h3>
+      </div>
+    </section >
+
+
+    <section class="password gray">
+        <select name="numbers" id="pw1">
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+          </select>
+      
+          <select name="numbers" id="pw2">
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+          </select>
+      
+          <select name="numbers" id="pw3">
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+          </select>
+      
+          <button id="submit">Probar contraseña!</button>
+      
+          <p id="resultado"></p>
+
+
+    </section>
+
+    <script src="javascripr.js"></script>
+  </body>
+</html>
