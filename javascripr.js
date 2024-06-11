@@ -62,7 +62,9 @@ submitBTN.addEventListener("click", () => {
   pswtry = pw1.value + pw2.value + pw3.value;
   if (pswtry === "911" || "714") {
     if (pswtry==="911"){resultado.innerHTML = "Password 1 es correcta";}else{
-        resultado.innerHTML = "Password 2 es correcta";
+        if (pswtry==="714"){
+          resultado.innerHTML = "Password 2 es correcta";
+        }else{resultado.innerHTML = "Password Incorrecta";}
     }}else{
         resultado.innerHTML = "Password Incorrecta";
     }
